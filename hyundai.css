@@ -1,0 +1,138 @@
+:root{
+    --skyblue-color:#3C8EC9;
+    --blue-color:#16639A;
+    --orange-color:#ff8a00;
+    --green-color:#435A20;
+    --grey-color:#707070;
+    --whitegrey-color:#e4e4e4;
+    --lightgrey-color:#ababab;
+}
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+.headerContainer,
+.productContainer,
+.infoContainer,
+.bottomContainer,
+.footerContainer{
+    width: 1280px;
+    margin: 0 auto;
+}
+.hedercommend{
+    margin: 40px 0;
+}
+.headerContainer{
+    position: relative;
+}
+.hide{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.headerLogo img{
+    width: 240px;
+    height: 100px;
+}
+.btn_nav_mobile{
+    display: none;
+}
+.menu-wrap{
+    position: absolute;
+    right: 170px;
+    top: 40px;
+}
+.gnb{
+    font-size: 0;
+}
+.gnb > li{
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 20px;
+}
+.gnb > li:not(:last-child){
+    margin-right: 60px;
+}
+.gnb > li > a{
+    display: block;
+    color: #000;
+}
+.open{
+    display: none;
+    padding-top: 10px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.open > li {
+    padding-bottom: 10px;
+}
+.open > li > a{
+    font-size: 14px;
+    color: #000;
+}
+.gnb > li:hover > a ~ .open{
+    display: block;
+}
+.bannercontainer{
+    position: relative;
+    z-index: -1;
+}
+.bannercontainer img{
+    width: 100%;
+    height: 600px;
+}
+.banner-contents{
+   position: absolute;
+   top: 100px;
+   left: 80px;
+   font-size: 36px;
+}
+.skyblue-text,
+.blue-text{
+    font-size: 64px;
+    font-weight: 500;
+}
+.skyblue-text{
+    color: var(--skyblue-color);
+}
+.blue-text{
+    color: var(--blue-color);
+}
+.productContainer{
+    padding: 145px 0;
+    display: flex;
+}
+.productleft{
+    position: relative;
+    padding-right: 25px;
+}
+.productleft h2{
+    font-size: 35px;
+}
+.productleft p{
+    font-size: 24px;
+    color: var(--orange-color);
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+.productleft a img {
+    width: 38px;
+    position: absolute;
+    top: 98px;
+    left: 220px;
+}
+.productright{
+    display: flex;
+}
+.productlists:not(:last-child){
+    padding-right: 12px;
+}
+.productlists a img{
+    width: 240px;
+}
+.productlists p{
+    display: none;
+}
