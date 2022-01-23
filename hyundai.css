@@ -85,7 +85,7 @@ a{text-decoration: none;}
 }
 .banner-contents{
    position: absolute;
-   top: 100px;
+   top: 80px;
    left: 80px;
    font-size: 36px;
 }
@@ -101,7 +101,7 @@ a{text-decoration: none;}
     color: var(--blue-color);
 }
 .productContainer{
-    padding: 145px 0;
+    padding: 150px 0;
     display: flex;
 }
 .productleft{
@@ -135,4 +135,223 @@ a{text-decoration: none;}
 }
 .productlists p{
     display: none;
+}
+.infoContainer{
+    display: flex;
+    padding-bottom: 150px;
+}
+.infoContainer a img{
+    width: 38px;
+}
+.firstinfoArea h3,
+.secondinfoArea h3{
+    font-size: 35px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    text-align: center;
+}
+.firstinfoArea,
+.secondinfoArea{
+    position: relative;
+    width: 410px;
+    padding-right: 20px;
+}
+.firstinfoArea a img,
+.secondinfoArea a img{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+.list{
+    padding-top: 10px;
+}
+.list li{
+    border-bottom: 1px solid var(--whitegrey-color);
+    height: 50px;
+}
+.list li a p{
+    font-size: 18px;
+    color: #000;
+    padding-top: 15px;
+}
+.firstinfo-contents{
+    position: relative;
+}
+.list li a p:nth-of-type(1){
+    position: absolute;
+    left: 15px;
+}
+.list li a p:nth-of-type(2){
+    position: absolute;
+    left: 40px;
+}
+.list li a p:nth-of-type(3){
+    position: absolute;
+    right: 0;
+}
+.secondinfo-contents img{
+    width: 155px;
+    height: 155px;
+    margin-top: 20px;
+}
+.secondinfo-top,
+.secondinfo-bottom{
+    position: relative;
+}
+.secondinfo-bottom{
+    margin-top: 10px;
+}
+.secondinfo-top p,
+.secondinfo-bottom p{
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    font-size: 18px;
+}
+.secondinfo-top p:last-of-type,
+.secondinfo-bottom p:last-of-type{
+    font-size: 16px;
+    top: 155px;
+    left: 320px;
+}
+.thirdinfo-img img{
+    width: 410px;
+    height:185px;
+}
+.thirdinfo-top{
+    padding-bottom: 60px;
+}
+.thirdinfo-top,
+.thirdinfo-bottom{
+    position: relative;
+}
+.thirdinfo-img p{
+    position: absolute;
+    top: 45px;
+    right: 15px;
+    font-size: 20px;
+    text-align: right;
+}
+.thirdinfo-content  span{
+    position: absolute;
+    font-size: 30px;
+    top: 125px;
+    right: 80px;
+}
+.thirdinfo-content img{
+    position: absolute;
+    top: 125px;
+    right: 15px;
+    width: 40px;
+}
+.green-text{
+    color: var(--green-color);
+}
+.bottomArea{
+    display: flex;
+    padding-bottom: 110px;
+}
+.bottomArea p{
+    font-size: 24px;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+}
+.bottomlists-first,
+.bottomlist-second{
+    padding-right: 20px;
+}
+.bottomlists-big,
+.bottomlists-small{
+    padding-bottom: 20px;
+}
+.bottomlists-big a img{
+    width: 410px;
+    height: 425px;
+}
+.bottomlists-small a img{
+    width: 410px;
+    height: 315px;
+}
+.shadow img:hover{
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.text{
+    width: 410px;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+}
+.text a:nth-child(1) img{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.text a:last-of-type img{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 45px;
+    height: 20px;
+}
+.bottom-sub{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.bottom-sub img{
+    width: 500px;
+    height: 70px; 
+}
+.bottom-sub p{
+    font-size: 24px;
+}
+.subleft{
+    padding-right: 110px;
+    position: relative;
+}
+.subleft p{
+    position: absolute;
+    top: 22px;
+    right: 130px;
+}
+.subright{
+    position: relative;
+}
+.subright p{
+    position: absolute;
+    top: 22px;
+    right: 20px;
+}
+.footerContainer{
+    border-top: 3px solid var(--lightgrey-color);
+    position: relative;
+}
+.footer-left{
+    color: var(--grey-color);
+    justify-content: center;
+    padding:80px 0 80px 50px;
+}
+.footer-left p:nth-of-type(1){
+    font-size: 30px;
+}
+.footer-left p:nth-of-type(2){
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer-right{
+    width: 670px;
+    position: absolute;
+    font-size: 18px;
+    top: 100px;
+    left: 420px;
+}
+.footer-right p:nth-of-type(2){
+    position: absolute;
+    top: 0;
+    left: 380px;
+}
+.footer-right p:last-of-type{
+    font-size: 14px;
+    padding-top: 15px;
 }
