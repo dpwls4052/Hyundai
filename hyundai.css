@@ -632,44 +632,44 @@ button{
     .infoContainer,
     .bottomContainer,
     .footerContainer{
-        width: 480px;
-        /* margin: 0 auto; */
+        width: auto;
+        margin: 0 20px;
    }
     .headerContainer{
-        width: 100%;
+        width: auto
     }
     .headerLogo img{
         width: 120px;
         height: 60px;
+        transform: translateY(5px);
     }
     .hedercommend{
         margin: 10px 0;
     }
     .btn_nav_mobile{
-        top: 15px;
+        top: 20px;
     }
     .bannercontainer img{
-        height: 250px;
+        height: 200px;
     }
     .banner-contents{
-        top: 30px;
-        left: 30px;
-        font-size: 20px;
+        top: 20px;
+        left: 20px;
+        font-size: 18px;
     }
     .skyblue-text,
     .blue-text{
-        font-size: 30px;
+        font-size: 25px;
     }
     .productContainer{
-        justify-content: space-around;
         padding: 110px 0 60px 0;
     }
     .productleft h2{
         font-size:25px;
     }
     .productleft{
-        left: 150px;
-        top: 35px;
+        left: 100px;
+        top: 30px;
     }
     .productleft p{
         font-size: 18px;
@@ -680,11 +680,11 @@ button{
     }
     .left_ex{
         top: -40px;
-        right: -180px;
+        left: -100px;
     }
     .productright{
-        width: 460px;
-        margin-top: 40px;
+        /* width: 100%; */
+        margin-top: 20px;
     }
     .productlists a img,
     .productlists{
@@ -692,19 +692,20 @@ button{
         height: 110px;
     }
     .productlists:not(:last-child){
-        margin-right: 8px;
+        margin-right: 5px;
     }
     .productlists p{
-        width: 110px;
-        font-size: 12px;
-        top: 50px;
+        width: 85px;
+        font-size: 5px;
+        top: 40px;
     }
     .firstinfoArea,
     .secondinfoArea,
     .thirdinfodArea{
-        width: 460px;
-        margin: 0 auto;
-        padding:0 0 50px 0;
+        width: auto;
+        margin: 0 20px;
+        padding:0 0 40px 0;
+        justify-content: center;
     }
     .firstinfoArea h3,
     .secondinfoArea h3{
@@ -719,81 +720,85 @@ button{
         right: 15px;
     }
     .list li a p{
-        font-size: 14px;
+        font-size: 12px;
         padding-top: 20px;
     }
     .list li a p:nth-of-type(1){
-        left: 30px;
+        left: 25px;
     }
     .list li a p:nth-of-type(2){
-        left: 70px;
+        left: 50px;
+    }
+    .secondinfo-top,
+    .secondinfo-bottom{
+        overflow-y: hidden;
     }
     .secondinfo-contents img{
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
     }
     .secondinfo-top p,
     .secondinfo-bottom p{
         top: 20px;
-        left: 190px;
-        font-size: 16px;
+        left: 160px;
+        font-size: 14px;
     }
     .secondinfo-top p:last-of-type,
     .secondinfo-bottom p:last-of-type{
-        font-size: 14px;
-        top: 190px;
-        left: 370px;
+        font-size: 12px;
+        top: 160px;
+        left: 290px;
     }
-    .thirdinfodArea{
-        justify-content: space-around;
+    .secondinfo-bottom {
+        margin: 0;
     }
     .thirdinfo-top{
         padding: 0 20px 0 0;
     }
     .thirdinfo-img img{
-        width: 220px;
-        height: 70px;
+        width: 200px;
+        height: 60px;
     }
     .thirdinfo-img p{
-        font-size: 11px;
-        top: 10px;
+        font-size: 8px;
+        top: 8px;
         right: 8px;
     }
     .thirdinfo-top .thirdinfo-img p,
     .thirdinfo-top .thirdinfo-content img{
-        right: 30px;
+        right: 28px;
     }
     .thirdinfo-content span,
     .thirdinfo-content img{
-        top: 42px;
+        top: 38px;
     }
     .thirdinfo-content a img{
-        width: 20px;
-        top: 43px;
+        width: 18px;
+        top: 38px;
         right: 8px;
     }
     .thirdinfo-content span{
-        font-size: 18px;
-        right: 35px;
+        font-size: 14px;
+        right: 28px;
     }
     .thirdinfo-top .thirdinfo-content span{
-        right: 60px;
+        right: 50px;
     }
     .bottomArea{
-        width: 460px;
+        width: 360px;
         margin: 0 auto;
         justify-content: center;
     }
     .bottomlists-big,
     .bottomlists-small,
     .text a:nth-child(1) img{
-        width: 50px;
-        height: 50px;
-        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        border-radius: 30px;
     }
     .bottomlists-big,
     .bottomlists-small{
-        margin-right: 20px;
+        margin-right: 0px;
         justify-content: center;
     }
     .bottomlists-big > a img,
@@ -802,22 +807,23 @@ button{
         display: none;
     }
     .text a:nth-child(1) img{
-       text-align: center;
+       /* text-align: center; */
        border: 3px solid var(--whitegrey-color);
     }
     .bottomlists-first,
     .bottomlist-second,
     .bottomlist-third{
         display: flex;
-        width: 120px;
+        width: 80px;
         padding: 0;
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
     .bottomlist-third{
         padding: 0;
         margin: 0;
     }
     .text{
+        width: 100px;
         background: none;
     }
     .text p{
@@ -832,51 +838,52 @@ button{
         left: -8px;
     }
     .bottom-sub{
-        padding: 20px 0 50px 0;
+        padding: 10px 0 50px 0;
     }
     .bottom-sub img{
-        width: 220px;
-        height: 50px;
+        width: 175px;
+        height: 40px;
     }
     .subleft{
-        padding-right: 20px;
+        padding-right: 10px;
     }
     .bottom-sub p,
     .bottom-sub u{
-        font-size: 12px;
+        font-size: 8px;
     }
     .subleft p,
     .subright p{
-        top: 18px;
-        right: 10px;
+        top: 13px;
+        right: 5px;
     }
     .subleft p{
-        right: 30px;
+        right: 15px;
     }
     .footerContainer{
-        width: 460px;
+        width: 360px;
         margin: 0 auto;
     }
     .footer-left{
-        padding: 40px 0 40px 20px;
+        padding: 20px 0 20px 20px;
     }
     .footer-left p:nth-of-type(1){
-        font-size: 15px;
+        font-size: 12px;
     }
     .footer-left p:nth-of-type(2){
-        font-size: 20px;
+        font-size: 16px;
     }
     .footer-right{
-        font-size: 8px;
-        top: 40px;
-        left: 170px;
+        width: 360px;
+        font-size: 5px;
+        top: 15px;
+        left: 125px;
     }
     .footer-right a {
         top: 18px;
         left:0;
     }
     .footer-right li:last-of-type{
-        font-size: 5px;
+        font-size: 3px;
         padding-top: 20px;
     }
 }
