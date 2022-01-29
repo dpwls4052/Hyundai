@@ -435,7 +435,8 @@ button{
     .infoContainer,
     .bottomContainer,
     .footerContainer{
-        width: 950px;
+        width: auto;
+        margin: 0 20px;
    }
    .menu-wrap{
        display: none;
@@ -474,13 +475,15 @@ button{
    .productleft{
       position: absolute;
       top: 50px;
-      left: 370px;
+      padding: 0;
+      left: 50%;
+      transform: translate(-50%);
    }
    .left_ex{
        width: 300px;
        position: absolute;
        top:-30px;
-       right: -300px;
+       right: -350px;
    }
    .productright{
       margin-top: 60px;
@@ -501,16 +504,16 @@ button{
    .firstinfoArea,
    .secondinfoArea,
    .thirdinfodArea{
-       width: 950px;
-       padding-bottom: 50px;
-       margin: 0 auto;
+       width: auto;
+       padding: 0 0 50px 0;
+       margin: 0 20px;
    }
    .firstinfoArea a img,
    .secondinfoArea a img{
-       right: 35px;
+       right: 20px;
    }
    .list li a p{
-       font-size: 24px;
+       font-size: 20px;
        padding-top: 10px;
    }
    .list li a p:nth-of-type(1){
@@ -530,12 +533,12 @@ button{
    .secondinfo-bottom p{
        top: 100px;
        left: 330px;
-       font-size: 25px;
+       font-size: 24px;
    }
    .secondinfo-top p:last-of-type,
    .secondinfo-bottom p:last-of-type{
-       font-size: 26px;
-       top: 280px;
+       font-size: 24px;
+       top: 290px;
        left: 800px;
    }
    .thirdinfo-img img{
@@ -567,6 +570,7 @@ button{
    }
    .bottomArea{
       padding-bottom: 50px;
+      justify-content: center;
    }
    .bottomlists-first,
    .bottomlist-second{
@@ -608,6 +612,9 @@ button{
    .bottom-sub u{
        font-size: 20px;
    }
+   .subleft{
+       padding-right: 60px;
+   }
    .footer-left{
        padding:50px 0 50px 50px;
    }
@@ -635,9 +642,9 @@ button{
         width: auto;
         margin: 0 20px;
    }
-    .headerContainer{
+    /* .headerContainer{
         width: auto
-    }
+    } */
     .headerLogo img{
         width: 120px;
         height: 60px;
@@ -662,13 +669,15 @@ button{
         font-size: 25px;
     }
     .productContainer{
-        padding: 110px 0 60px 0;
+        padding: 110px 0 40px 0;
     }
     .productleft h2{
         font-size:25px;
     }
     .productleft{
-        left: 100px;
+        padding: 0;
+        left: 50%;
+        transform: translate(-50%);
         top: 30px;
     }
     .productleft p{
@@ -680,7 +689,7 @@ button{
     }
     .left_ex{
         top: -40px;
-        left: -100px;
+        left: 90px;
     }
     .productright{
         /* width: 100%; */
@@ -695,9 +704,9 @@ button{
         margin-right: 5px;
     }
     .productlists p{
-        width: 85px;
-        font-size: 5px;
-        top: 40px;
+        width: 110px;
+        font-size: 12px;
+        top: 50px;
     }
     .firstinfoArea,
     .secondinfoArea,
@@ -747,7 +756,7 @@ button{
     .secondinfo-bottom p:last-of-type{
         font-size: 12px;
         top: 160px;
-        left: 290px;
+        left: 370px;
     }
     .secondinfo-bottom {
         margin: 0;
@@ -756,7 +765,7 @@ button{
         padding: 0 20px 0 0;
     }
     .thirdinfo-img img{
-        width: 200px;
+        width: 210px;
         height: 60px;
     }
     .thirdinfo-img p{
@@ -785,9 +794,10 @@ button{
         right: 50px;
     }
     .bottomArea{
-        width: 360px;
+        width: auto;
         margin: 0 auto;
         justify-content: center;
+        padding-bottom: 30px;
     }
     .bottomlists-big,
     .bottomlists-small,
@@ -797,9 +807,8 @@ button{
         border-radius: 30px;
     }
     .bottomlists-big,
-    .bottomlists-small{
-        margin-right: 0px;
-        justify-content: center;
+    .bottomlists-small:not(.bottomlist-third .bottomlists-small){
+        margin-right: 20px;
     }
     .bottomlists-big > a img,
     .bottomlists-small > a img,
@@ -814,9 +823,7 @@ button{
     .bottomlist-second,
     .bottomlist-third{
         display: flex;
-        width: 80px;
         padding: 0;
-        /* margin-right: 20px; */
     }
     .bottomlist-third{
         padding: 0;
@@ -826,26 +833,34 @@ button{
         width: 100px;
         background: none;
     }
+    .bottomlists-big:hover .text p,
+    .bottomlists-small:hover .text p{
+         display: inline;
+    }
     .text p{
-        font-size: 3px;
-        top: 70px;
+        display: none;
+        font-size: 2px;
+        top: 60px;
         left: -10px;
     }
     .bottomlists-small .text p{
         left: 0;
     }
+    .bottomlist-third .bottomlists-big .text p{
+        left: -5px;
+    }
     .bottomlist-third .bottomlists-small .text p{
-        left: -8px;
+        left: -12px;
     }
     .bottom-sub{
         padding: 10px 0 50px 0;
     }
     .bottom-sub img{
-        width: 175px;
+        width: 210px;
         height: 40px;
     }
     .subleft{
-        padding-right: 10px;
+        padding-right: 20px;
     }
     .bottom-sub p,
     .bottom-sub u{
@@ -854,14 +869,10 @@ button{
     .subleft p,
     .subright p{
         top: 13px;
-        right: 5px;
+        right: 8px;
     }
     .subleft p{
-        right: 15px;
-    }
-    .footerContainer{
-        width: 360px;
-        margin: 0 auto;
+        right: 28px;
     }
     .footer-left{
         padding: 20px 0 20px 20px;
@@ -873,10 +884,9 @@ button{
         font-size: 16px;
     }
     .footer-right{
-        width: 360px;
         font-size: 5px;
         top: 15px;
-        left: 125px;
+        left: 140px;
     }
     .footer-right a {
         top: 18px;
