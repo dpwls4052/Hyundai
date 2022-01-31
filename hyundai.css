@@ -306,10 +306,10 @@ button{
 }
 .thirdinfo-img img{
     width: 410px;
-    height:185px;
+    height:195px;
 }
 .thirdinfo-top{
-    padding-bottom: 60px;
+    padding-bottom:30px;
 }
 .thirdinfo-img p{
     top: 45px;
@@ -415,7 +415,7 @@ button{
     font-weight: 600;
 }
 .footer-right{
-    width: 670px;
+    width: 800px;
     font-size: 18px;
     top: 100px;
     left: 420px;
@@ -423,7 +423,7 @@ button{
 .footer-right a {
     color: #000;
     top: 0;
-    left: 380px;
+    left: 400px;
 }
 .footer-right li:last-of-type{
     font-size: 14px;
@@ -542,15 +542,15 @@ button{
        left: 800px;
    }
    .thirdinfo-img img{
-       width: 460px;
+       width: 400px;
        height:150px;
    }
    .thirdinfodArea{
        display: flex;
-       justify-content: space-between;
+       justify-content: center;
    }
    .thirdinfo-top{
-       padding:0 30px 0 0;
+       padding:0 40px 0 0;
    }
    .thirdinfo-img p{
        top: 30px;
@@ -569,38 +569,63 @@ button{
        right: 45px;
    }
    .bottomArea{
-      padding-bottom: 50px;
-      justify-content: center;
+    width: auto;
+    /* margin: 0 auto; */
+    justify-content: center;
+    padding-bottom: 60px;
    }
-   .bottomlists-first,
-   .bottomlist-second{
-    padding-right: 10px;
-}
-   .bottomlists-big a img{
-       width: 310px;
-       height: 325px;
+   .bottomlists-big,
+   .bottomlists-small,
+   .text a:nth-child(1) img{
+       width: 60px;
+       height: 60px;
+       border-radius: 60px;
    }
-   .bottomlists-small a img{
-       width: 310px;
-       height: 205px;
+   .bottomlists-big,
+   .bottomlists-small:not(.bottomlist-third .bottomlists-small){
+       margin-right: 30px;
    }
-   .text{
-       width: 310px;
-       height: 50px;
+   .bottomlists-big > a img,
+   .bottomlists-small > a img,
+   .text a:nth-of-type(2) img{
+       display: none;
    }
    .text a:nth-child(1) img{
-       width: 50px;
-       height: 50px;
+      /* text-align: center; */
+      border: 3px solid var(--whitegrey-color);
    }
-   .text a:last-of-type img{
-       width: 30px;
-       top: 14px;
-       right: 20px;
+   .bottomlists-first,
+   .bottomlist-second,
+   .bottomlist-third{
+       display: flex;
+       padding: 0;
    }
-   .bottomArea p{
-       font-size: 18px;
-       top: 12px;
-       left: 70px;
+   .bottomlist-third{
+       padding: 0;
+       margin: 0;
+   }
+   .text{
+       width: 100px;
+       background: none;
+   }
+   .bottomlists-big:hover .text p,
+   .bottomlists-small:hover .text p{
+        display: inline;
+   }
+   .text p{
+       display: none;
+       font-size: 13px;
+       top: 85px;
+       left: -12px;
+   }
+   .bottomlists-small .text p{
+       left: 0;
+   }
+   .bottomlist-third .bottomlists-big .text p{
+       left: -2px;
+   }
+   .bottomlist-third .bottomlists-small .text p{
+       left: -12px;
    }
    .bottom-sub{
        padding-bottom: 70px;
@@ -613,7 +638,10 @@ button{
        font-size: 20px;
    }
    .subleft{
-       padding-right: 60px;
+       padding-right: 40px;
+   }
+   .subleft p{
+       right: 60px;
    }
    .footer-left{
        padding:50px 0 50px 50px;
@@ -642,9 +670,6 @@ button{
         width: auto;
         margin: 0 20px;
    }
-    /* .headerContainer{
-        width: auto
-    } */
     .headerLogo img{
         width: 120px;
         height: 60px;
