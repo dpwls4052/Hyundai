@@ -434,7 +434,10 @@ button{
     .productContainer,
     .infoContainer,
     .bottomContainer,
-    .footerContainer{
+    .footerContainer,
+    .firstinfoArea,
+    .secondinfoArea,
+    .thirdinfodArea{
         width: auto;
         margin: 0 20px;
    }
@@ -504,9 +507,7 @@ button{
    .firstinfoArea,
    .secondinfoArea,
    .thirdinfodArea{
-       width: auto;
        padding: 0 0 50px 0;
-       margin: 0 20px;
    }
    .firstinfoArea a img,
    .secondinfoArea a img{
@@ -570,7 +571,6 @@ button{
    }
    .bottomArea{
     width: auto;
-    /* margin: 0 auto; */
     justify-content: center;
     padding-bottom: 60px;
    }
@@ -591,7 +591,6 @@ button{
        display: none;
    }
    .text a:nth-child(1) img{
-      /* text-align: center; */
       border: 3px solid var(--whitegrey-color);
    }
    .bottomlists-first,
@@ -717,7 +716,6 @@ button{
         left: 90px;
     }
     .productright{
-        /* width: 100%; */
         margin-top: 20px;
     }
     .productlists a img,
@@ -841,7 +839,6 @@ button{
         display: none;
     }
     .text a:nth-child(1) img{
-       /* text-align: center; */
        border: 3px solid var(--whitegrey-color);
     }
     .bottomlists-first,
