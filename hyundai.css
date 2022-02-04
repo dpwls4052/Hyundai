@@ -139,7 +139,6 @@ button{
 .gnb > li{
     display: inline-block;
     width: 100px;
-    /* vertical-align: top; */
     text-align: center;
     font-size: 20px;
 }
@@ -180,11 +179,12 @@ button{
    top: 80px;
    left: 80px;
    font-size: 38px;
+   color: #383838;
 }
 .skyblue-text,
 .blue-text{
     font-size: 64px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .skyblue-text{
     color: var(--skyblue-color);
@@ -248,10 +248,11 @@ button{
 }
 .firstinfoArea h3,
 .secondinfoArea h3{
-    font-size: 35px;
+    font-size: 20px;
     border-top: 5px solid #000;
     border-bottom: 5px solid #000;
     text-align: center;
+    padding: 15px;
 }
 .firstinfoArea,
 .secondinfoArea{
@@ -260,7 +261,7 @@ button{
 }
 .firstinfoArea a img,
 .secondinfoArea a img{
-    top: 10px;
+    top: 15px;
     right: 25px;
 }
 .list{
@@ -272,7 +273,7 @@ button{
 }
 .list li a p{
     font-size: 15px;
-    color: #000;
+    color: #383838;
     padding-top: 15px;
 }
 .list li a p:nth-of-type(1){
@@ -297,19 +298,21 @@ button{
     top: 20px;
     left: 170px;
     font-size: 16px;
+    color: #383838;
 }
 .secondinfo-top p:last-of-type,
 .secondinfo-bottom p:last-of-type{
-    font-size: 16px;
-    top: 155px;
-    left: 320px;
+    font-size: 14px;
+    top: 160px;
+    left: 330px;
+    color: #5a5a5a;
 }
 .thirdinfo-img img{
     width: 410px;
     height:195px;
 }
 .thirdinfo-top{
-    padding-bottom:30px;
+    padding-bottom:40px;
 }
 .thirdinfo-img p{
     top: 45px;
@@ -326,6 +329,9 @@ button{
     top: 125px;
     right: 15px;
     width: 40px;
+}
+.thirdinfo-content .blue-text{
+    font-weight: 500;
 }
 .green-text{
     color: var(--green-color);
