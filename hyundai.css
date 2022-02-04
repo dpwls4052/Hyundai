@@ -225,7 +225,7 @@ button{
     width: 100%;
     height: 240px;
 }
-.productlists a img:hover{
+.productlists:hover a img{
     opacity: 0.5;
 }
 .productlists p{
@@ -237,7 +237,7 @@ button{
     opacity: 0;
     transition-duration: 0.5s;
 }
-.productlists a:hover + p {
+.productlists:hover a img + p{
     opacity: 1;
 }
 .infoContainer{
