@@ -745,6 +745,9 @@ button{
         padding:0 0 40px 0;
         justify-content: center;
     }
+    .thirdinfodArea{
+        padding-bottom: 20px;
+    }
     .firstinfoArea h3,
     .secondinfoArea h3{
        font-size: 25px;
