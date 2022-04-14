@@ -506,8 +506,9 @@ button{
        height: 180px;
    }
    .productlists p{
-       width: 220px;
-       top: 95px;
+       width: 190px;
+       top: 80px;
+       font-size: 16px;
    }
    .infoContainer{
        padding-bottom: 130px;
